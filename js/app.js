@@ -9,6 +9,7 @@ let paginaactual=1;//1 por qur cada vez que hagamos una consulta en l aapi siemp
 const registroporpagina=40;
 const salida=document.querySelector('#salida');
 const microfono=document.querySelector('#microfono');
+
 microfono.addEventListener('click',ejecutarSpeechAPI);
 window.onload=()=>{
     formulario.addEventListener('submit',validarformulario);
